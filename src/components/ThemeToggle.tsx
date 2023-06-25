@@ -30,7 +30,7 @@ const ThemeToggle: FC<ThemeToggleProps> = ({}) => {
           onClick={() => {
             setTheme("light"),
               toast({
-                title: "Switched to Light theme",
+                title: "Switched to Light Mode",
                 type: "success",
               });
           }}
@@ -42,7 +42,7 @@ const ThemeToggle: FC<ThemeToggleProps> = ({}) => {
           onClick={() => {
             setTheme("dark"),
               toast({
-                title: "Switched to dark theme",
+                title: "Switched to dark Mode",
                 type: "default",
               });
           }}
