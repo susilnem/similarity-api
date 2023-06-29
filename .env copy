@@ -2,21 +2,21 @@
 # NextAuth.js Configuration
 # ------------------------
 
-NEXTAUTH_SECRET=anythingyoucanad12343645687768
+NEXTAUTH_SECRET=
 NEXTAUTH_URL=http://localhost:3000
 
 # ------------------------
 # OAuth Providers
 # ------------------------
 
-GOOGLE_CLIENT_ID=149473750895-k7mpgkqs5met4vf7cae8g7m2vgov894r.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
 
 # ------------------------
 # Database
 # ------------------------
 
-DATABASE_URL='mysql://ud8akm8wo654hxwuflwi:pscale_pw_BpU4P8kxK1KVK9euu1uBvC4ysHF4hyuY9sx39svVGVA@aws.connect.psdb.cloud/similarapi?sslaccept=strict'
+DATABASE_URL=
 
 # ------------------------
 # OpenAI
