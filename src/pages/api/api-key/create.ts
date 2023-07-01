@@ -54,5 +54,5 @@ const handler = async (
         })
     }
 }
-export default withMethods(handler, ["GET"])
+export default withMethods(['GET'], handler)
 
