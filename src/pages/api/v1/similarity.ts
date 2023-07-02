@@ -2,9 +2,7 @@ import { cosineSimilarity } from "@/helpers/cosine-similarity"
 import { withMethods } from "@/lib/api-middlewares/with-methods"
 import { db } from "@/lib/db"
 import { openai } from "@/lib/openai"
-import { ca } from "date-fns/locale"
 import { NextApiRequest, NextApiResponse } from "next"
-import { text } from "stream/consumers"
 import { z } from 'zod'
 
 const reqSchema = z.object({
