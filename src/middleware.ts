@@ -4,10 +4,7 @@ import { Ratelimit } from '@upstash/ratelimit'
 import { NextResponse } from 'next/server'
 import { getToken } from 'next-auth/jwt'
 
-const redis = new Redis({
-    url: process.env.REDIS_URL,
-    token: process.env.REDIS_SECRET,
-});
+export const redis = Redis.fromEnv()
 
 const ratelimit = new Ratelimit({
     redis,
